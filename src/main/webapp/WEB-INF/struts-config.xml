@@ -4,10 +4,14 @@
 "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
  
 <struts-config>
-
+	<form-beans>
+	   <form-bean name="holaMundoForm" 
+		type="com.open4job.struts.web.HolaMundoForm"/>
+	</form-beans>
+	
 	<action-mappings>
 	   <action path="/HolaMundo"
-		type="com.open4job.struts.web.action.ControladorAction">
+		type="com.open4job.struts.web.ControladorAction" name="holaMundoForm">
 		
 		<forward name="listadomundo" path="/HolaMundo.jsp"/>
  
