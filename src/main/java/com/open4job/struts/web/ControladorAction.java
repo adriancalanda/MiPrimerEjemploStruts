@@ -16,12 +16,12 @@ public class ControladorAction extends Action{
 	        throws Exception {
 			
 			
-			//Recibimos los parametros via "get" desde el index.jsp
-			//String nombre = (String)request.getParameter("nombre");
-			//String apellido = (String)request.getParameter("apellido");
-			//Guardamos las variables
-			//request.setAttribute("nombre",nombre);
-			//request.setAttribute("apellido",apellido);
+			/*Recibimos los parametros via "get" desde el index.jsp
+			String nombre = (String)request.getParameter("nombre");
+			String apellido = (String)request.getParameter("apellido");
+			Guardamos las variables
+			request.setAttribute("nombre",nombre);
+			request.setAttribute("apellido",apellido);*/
 			
 			return mapping.findForward("listadomundo");
 		}

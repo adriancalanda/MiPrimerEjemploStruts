@@ -11,7 +11,7 @@
 	
 	<action-mappings>
 	   <action path="/HolaMundo"
-		type="com.open4job.struts.web.ControladorAction" name="holaMundoForm">
+		type="com.open4job.struts.web.ControladorAction" name="holaMundoForm" input="/index.jsp">
 		
 		<forward name="listadomundo" path="/HolaMundo.jsp"/>
  
